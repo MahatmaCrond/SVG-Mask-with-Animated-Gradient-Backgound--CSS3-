@@ -1,0 +1,80 @@
+
+
+
+section{padding-top:20px; 
+padding-bottom:20px;}
+
+.content{
+background-color:#571de6;
+	position: static;
+	
+}
+
+.overlay{
+height:100%;
+	width:100%;
+min-height: 100%;}
+
+.hero {
+    height:100%;
+	z-index:10;
+	background:linear-gradient(182deg, #3f09f0, #b51a8c, #4bceff, #1a5f7e, #510688, #e82ea8, #0eb4a6);
+background-size: 1400% 1400%;
+
+animation: Odyssey 15s ease infinite;
+
+-webkit-animation: Odyssey 15s ease infinite;
+-moz-animation: Odyssey 15s ease infinite;
+
+}
+
+@-webkit-keyframes Odyssey {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+	75%{background-position: 75% 25%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes Odyssey {
+    0%{background-position:51% 0%}
+		25%{background-position: 25% 50%}
+
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes Odyssey { 
+    0%{background-position:51% 0%}
+		25%{background-position: 25% 50%}
+
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.stage{
+    width:100%;
+    height:100%;
+    min-height:100%;
+    padding:10px;
+}
+
+
+
+	
+.cta{
+	border: 2px solid #fff;
+	padding: 15px 15px 15px 15px;
+	text-transform: uppercase;
+	color:#fff;
+	transition-duration: 1s;
+
+}
+	.cta:hover{
+		background: rgba(178, 186, 255, 0.63);
+		transition-duration: 1s;
+		color:#fff;
+
+}
+.white{color:#fff;}
+.inline{display:inline;}
+.help-text{font-size: 20px;}
+a{color:rgba(255, 255, 255, 0.78); text-decoration:none; transition-duration: 1s;}
+a:hover{color:#fff; text-decoration:none; transition-duration: 1s;}
