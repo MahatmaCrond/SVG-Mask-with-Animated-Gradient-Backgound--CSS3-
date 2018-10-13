@@ -1,7 +1,5 @@
 # SVG-Mask-with-Animated-Gradient-Backgound--CSS3-
 
-EXAMPLE: http://getrussell.com/odyssey/
-
 This utilizes an SVG's transparent alpha, and animated linear background gradients to produce a cool effect
 
 I had this idea to use a track matte technique from After Effects (or a clipping mask in photoshop) to make a cool effect using just HTML and CSS.
